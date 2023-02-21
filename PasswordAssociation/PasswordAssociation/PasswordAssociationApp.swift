@@ -1,0 +1,17 @@
+//
+//  PasswordAssociationApp.swift
+//  PasswordAssociation
+//
+//  Created by 张伟 on 2023/2/20.
+//
+
+import SwiftUI
+
+@main
+struct PasswordAssociationApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
