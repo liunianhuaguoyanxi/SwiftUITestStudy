@@ -23,7 +23,8 @@ struct ContentView: View {
 //    ]
 //    @StateObject var expense = PasswordAssociation() //一开始申明属性要用 @StateObject
     
-    @EnvironmentObject var expense:PasswordAssociation //已经在首页注入了，可以用这种方式取对象了，就不用@StateObject了ƒdƒ
+    @EnvironmentObject var expense:PasswordAssociation //已经在首页注入了，可以用这种方式取对象了，就不用@StateObject了获取了
+    
     init() {
         print("刷新")
     }
@@ -129,6 +130,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(PasswordAssociation())
     }
 }
