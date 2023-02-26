@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct  PasswordItem: Identifiable{
+struct  PasswordItem: Identifiable {
     let id = UUID()
     var name: String
     var type: String
