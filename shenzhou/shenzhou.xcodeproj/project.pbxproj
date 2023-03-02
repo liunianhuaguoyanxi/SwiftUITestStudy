@@ -14,6 +14,11 @@
 		7255202329AB816D008FA390 /* VGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7255202229AB816D008FA390 /* VGridView.swift */; };
 		7255202529AB943C008FA390 /* HGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7255202429AB943C008FA390 /* HGridView.swift */; };
 		7255202729AB9899008FA390 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7255202629AB9899008FA390 /* GeometryReaderView.swift */; };
+		729D3DB229B0C9B9007568BB /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 729D3DB029B0C9B9007568BB /* astronauts.json */; };
+		729D3DB329B0C9B9007568BB /* plans.json in Resources */ = {isa = PBXBuildFile; fileRef = 729D3DB129B0C9B9007568BB /* plans.json */; };
+		729D3DB629B0CA8A007568BB /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D3DB529B0CA8A007568BB /* Plan.swift */; };
+		729D3DB829B0CC36007568BB /* PlanVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D3DB729B0CC36007568BB /* PlanVM.swift */; };
+		72B1C4E129B0D94600C62EB8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1C4E029B0D94600C62EB8 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		7255202229AB816D008FA390 /* VGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGridView.swift; sourceTree = "<group>"; };
 		7255202429AB943C008FA390 /* HGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGridView.swift; sourceTree = "<group>"; };
 		7255202629AB9899008FA390 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
+		729D3DB029B0C9B9007568BB /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		729D3DB129B0C9B9007568BB /* plans.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plans.json; sourceTree = "<group>"; };
+		729D3DB529B0CA8A007568BB /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		729D3DB729B0CC36007568BB /* PlanVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanVM.swift; sourceTree = "<group>"; };
+		72B1C4E029B0D94600C62EB8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +68,14 @@
 			isa = PBXGroup;
 			children = (
 				7255201429AB814F008FA390 /* shenzhouApp.swift */,
+				729D3DB529B0CA8A007568BB /* Plan.swift */,
+				729D3DB729B0CC36007568BB /* PlanVM.swift */,
 				7255201629AB814F008FA390 /* ContentView.swift */,
 				7255202229AB816D008FA390 /* VGridView.swift */,
 				7255202429AB943C008FA390 /* HGridView.swift */,
 				7255202629AB9899008FA390 /* GeometryReaderView.swift */,
+				72B1C4E029B0D94600C62EB8 /* Constants.swift */,
+				729D3DB429B0C9F3007568BB /* Resources */,
 				7255201829AB8150008FA390 /* Assets.xcassets */,
 				7255201A29AB8150008FA390 /* Preview Content */,
 			);
@@ -74,6 +88,15 @@
 				7255201B29AB8150008FA390 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		729D3DB429B0C9F3007568BB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				729D3DB029B0C9B9007568BB /* astronauts.json */,
+				729D3DB129B0C9B9007568BB /* plans.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +157,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				729D3DB329B0C9B9007568BB /* plans.json in Resources */,
+				729D3DB229B0C9B9007568BB /* astronauts.json in Resources */,
 				7255201C29AB8150008FA390 /* Preview Assets.xcassets in Resources */,
 				7255201929AB8150008FA390 /* Assets.xcassets in Resources */,
 			);
@@ -148,9 +173,12 @@
 			files = (
 				7255201729AB814F008FA390 /* ContentView.swift in Sources */,
 				7255202329AB816D008FA390 /* VGridView.swift in Sources */,
+				729D3DB829B0CC36007568BB /* PlanVM.swift in Sources */,
+				729D3DB629B0CA8A007568BB /* Plan.swift in Sources */,
 				7255201529AB814F008FA390 /* shenzhouApp.swift in Sources */,
 				7255202729AB9899008FA390 /* GeometryReaderView.swift in Sources */,
 				7255202529AB943C008FA390 /* HGridView.swift in Sources */,
+				72B1C4E129B0D94600C62EB8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
