@@ -19,6 +19,13 @@
 		729D3DB629B0CA8A007568BB /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D3DB529B0CA8A007568BB /* Plan.swift */; };
 		729D3DB829B0CC36007568BB /* PlanVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729D3DB729B0CC36007568BB /* PlanVM.swift */; };
 		72B1C4E129B0D94600C62EB8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B1C4E029B0D94600C62EB8 /* Constants.swift */; };
+		72D1AAA829B43C0C0070D458 /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1AAA729B43C0C0070D458 /* PlanView.swift */; };
+		72D1AAAA29B443DC0070D458 /* SZDvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1AAA929B443DC0070D458 /* SZDvider.swift */; };
+		72D1AAAD29B445CF0070D458 /* astronauts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1AAAC29B445CF0070D458 /* astronauts.swift */; };
+		72D1AAAF29B4461A0070D458 /* AstronautsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1AAAE29B4461A0070D458 /* AstronautsVM.swift */; };
+		72D1AAB129B446DE0070D458 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1AAB029B446DE0070D458 /* Bundle-Decodable.swift */; };
+		72D1AAB329B449500070D458 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1AAB229B449500070D458 /* AstronautView.swift */; };
+		72D1AAB529B44D5B0070D458 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1AAB429B44D5B0070D458 /* Modifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +42,13 @@
 		729D3DB529B0CA8A007568BB /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
 		729D3DB729B0CC36007568BB /* PlanVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanVM.swift; sourceTree = "<group>"; };
 		72B1C4E029B0D94600C62EB8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		72D1AAA729B43C0C0070D458 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		72D1AAA929B443DC0070D458 /* SZDvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SZDvider.swift; sourceTree = "<group>"; };
+		72D1AAAC29B445CF0070D458 /* astronauts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = astronauts.swift; sourceTree = "<group>"; };
+		72D1AAAE29B4461A0070D458 /* AstronautsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsVM.swift; sourceTree = "<group>"; };
+		72D1AAB029B446DE0070D458 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		72D1AAB229B449500070D458 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		72D1AAB429B44D5B0070D458 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +83,12 @@
 			children = (
 				7255201429AB814F008FA390 /* shenzhouApp.swift */,
 				729D3DB529B0CA8A007568BB /* Plan.swift */,
+				72D1AAA729B43C0C0070D458 /* PlanView.swift */,
 				729D3DB729B0CC36007568BB /* PlanVM.swift */,
-				7255201629AB814F008FA390 /* ContentView.swift */,
-				7255202229AB816D008FA390 /* VGridView.swift */,
-				7255202429AB943C008FA390 /* HGridView.swift */,
-				7255202629AB9899008FA390 /* GeometryReaderView.swift */,
-				72B1C4E029B0D94600C62EB8 /* Constants.swift */,
+				72D1AAAC29B445CF0070D458 /* astronauts.swift */,
+				72D1AAAE29B4461A0070D458 /* AstronautsVM.swift */,
+				72D1AAB229B449500070D458 /* AstronautView.swift */,
+				72D1AAAB29B444FD0070D458 /* Common */,
 				729D3DB429B0C9F3007568BB /* Resources */,
 				7255201829AB8150008FA390 /* Assets.xcassets */,
 				7255201A29AB8150008FA390 /* Preview Content */,
@@ -97,6 +111,21 @@
 				729D3DB129B0C9B9007568BB /* plans.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		72D1AAAB29B444FD0070D458 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7255201629AB814F008FA390 /* ContentView.swift */,
+				7255202229AB816D008FA390 /* VGridView.swift */,
+				7255202429AB943C008FA390 /* HGridView.swift */,
+				72B1C4E029B0D94600C62EB8 /* Constants.swift */,
+				7255202629AB9899008FA390 /* GeometryReaderView.swift */,
+				72D1AAA929B443DC0070D458 /* SZDvider.swift */,
+				72D1AAB029B446DE0070D458 /* Bundle-Decodable.swift */,
+				72D1AAB429B44D5B0070D458 /* Modifiers.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,11 +200,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72D1AAB329B449500070D458 /* AstronautView.swift in Sources */,
+				72D1AAAA29B443DC0070D458 /* SZDvider.swift in Sources */,
 				7255201729AB814F008FA390 /* ContentView.swift in Sources */,
 				7255202329AB816D008FA390 /* VGridView.swift in Sources */,
+				72D1AAB529B44D5B0070D458 /* Modifiers.swift in Sources */,
+				72D1AAA829B43C0C0070D458 /* PlanView.swift in Sources */,
+				72D1AAB129B446DE0070D458 /* Bundle-Decodable.swift in Sources */,
 				729D3DB829B0CC36007568BB /* PlanVM.swift in Sources */,
 				729D3DB629B0CA8A007568BB /* Plan.swift in Sources */,
 				7255201529AB814F008FA390 /* shenzhouApp.swift in Sources */,
+				72D1AAAD29B445CF0070D458 /* astronauts.swift in Sources */,
+				72D1AAAF29B4461A0070D458 /* AstronautsVM.swift in Sources */,
 				7255202729AB9899008FA390 /* GeometryReaderView.swift in Sources */,
 				7255202529AB943C008FA390 /* HGridView.swift in Sources */,
 				72B1C4E129B0D94600C62EB8 /* Constants.swift in Sources */,

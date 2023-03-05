@@ -9,3 +9,5 @@ import SwiftUI
 
 let kLightBGColor = Color("LightBG")
 let kDarkBGColor = Color("DarkBG")
+let kPlansJsonFile = "plans"
+let kAstronautsJsonFile = "astronauts"

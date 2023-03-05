@@ -18,7 +18,7 @@ struct ContentView: View {
                 LazyVGrid(columns: columns) {
                     ForEach(planVM.plans) { plan in
                         NavigationLink {
-                            Text("3")
+                            PlanView(plan: plan)
                         } label: {
                             VStack{
                                 Image(plan.imageName)
