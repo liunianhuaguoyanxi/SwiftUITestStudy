@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct PasswordAssociationView: View {
-    var passwordItem:PasswordItem
+    @ObservedObject var passwordItem:PasswordItem
     var body: some View {
         HStack {
             VStack(alignment:.leading,spacing:4){
-                Text(passwordItem.name).font(.headline)
-                Text(passwordItem.type).font(.subheadline).foregroundColor(.secondary)
+                Text(passwordItem.name ?? "").font(.headline)
+                Text(passwordItem.type ?? "").font(.subheadline).foregroundColor(.secondary)
             }
             Spacer()
-            Text(passwordItem.price)
+            Text(passwordItem.price ?? "")
         }
     }
 }

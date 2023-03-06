@@ -45,7 +45,8 @@ struct AddView: View {
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button {
-                    expense.addItem(item:  PasswordItem(name: name, type: type, price: price, account: "130", password: "333"))
+                    expense.addItem(name: name, type: type, price: price)
+//                    expense.addItem(item:  PasswordItem(name: name, type: type, price: price, account: "130", password: "333"))
 
 //                        expense.expenseItems.append(  PasswordItem(name: name, type: type, price: price, account: "130", password: "333"))
                 dismiss()//swiftUI中既可以把present的dismiss也可以把push的pop回去

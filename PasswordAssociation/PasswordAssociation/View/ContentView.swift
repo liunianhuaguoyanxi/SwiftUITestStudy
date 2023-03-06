@@ -31,7 +31,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
 
-            List(expense.expenseItems) { passwordItem in                    NavigationLink {
+            List(expense.expenseItems, id:\.id) { passwordItem in                    NavigationLink {
 //                EditView(expense: expense,draftPasswordItem: DraftPasswordItem(passwordItem: passwordItem))
 //                //                    DetailView(expenseItems: $expenseItems)
                 //已经在首页注入了expense,就不用上面的方法来传值了

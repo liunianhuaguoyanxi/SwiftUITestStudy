@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		727435CC29B6110D009C8DC9 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727435CB29B6110D009C8DC9 /* PersistenceController.swift */; };
+		727435CF29B61183009C8DC9 /* PasswordAssociationApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 727435CD29B61183009C8DC9 /* PasswordAssociationApp.xcdatamodeld */; };
 		7276605829A4F60600380B9C /* PasswordAssociation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7276605729A4F60600380B9C /* PasswordAssociation.swift */; };
 		7276605A29A4FD3300380B9C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7276605929A4FD3300380B9C /* HomeView.swift */; };
 		72C916DB29A3A9590019FD04 /* PasswordAssociationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C916DA29A3A9590019FD04 /* PasswordAssociationApp.swift */; };
@@ -15,6 +17,7 @@
 		72C916E229A3A95A0019FD04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72C916E129A3A95A0019FD04 /* Preview Assets.xcassets */; };
 		72C916E929A3A9D00019FD04 /* PasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C916E829A3A9D00019FD04 /* PasswordItem.swift */; };
 		72C916EB29A3AF890019FD04 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C916EA29A3AF890019FD04 /* DetailView.swift */; };
+		72D1AAB729B45C610070D458 /* AppStorageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D1AAB629B45C610070D458 /* AppStorageDemo.swift */; };
 		72F415CC29AB315D003BA337 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F415CB29AB315D003BA337 /* AddView.swift */; };
 		72F415CE29AB3170003BA337 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F415CD29AB3170003BA337 /* EditView.swift */; };
 		72F415D029AB36AD003BA337 /* DraftPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F415CF29AB36AD003BA337 /* DraftPasswordItem.swift */; };
@@ -23,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		727435CB29B6110D009C8DC9 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		727435CE29B61183009C8DC9 /* PasswordAssociationApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PasswordAssociationApp.xcdatamodel; sourceTree = "<group>"; };
 		7276605729A4F60600380B9C /* PasswordAssociation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordAssociation.swift; sourceTree = "<group>"; };
 		7276605929A4FD3300380B9C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		72C916D729A3A9590019FD04 /* PasswordAssociation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordAssociation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +37,7 @@
 		72C916E129A3A95A0019FD04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		72C916E829A3A9D00019FD04 /* PasswordItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordItem.swift; sourceTree = "<group>"; };
 		72C916EA29A3AF890019FD04 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		72D1AAB629B45C610070D458 /* AppStorageDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageDemo.swift; sourceTree = "<group>"; };
 		72F415CB29AB315D003BA337 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		72F415CD29AB3170003BA337 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		72F415CF29AB36AD003BA337 /* DraftPasswordItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftPasswordItem.swift; sourceTree = "<group>"; };
@@ -99,11 +105,13 @@
 		72C916D929A3A9590019FD04 /* PasswordAssociation */ = {
 			isa = PBXGroup;
 			children = (
-				72F415D329AB5B83003BA337 /* Common */,
 				72C916DA29A3A9590019FD04 /* PasswordAssociationApp.swift */,
+				72F415D329AB5B83003BA337 /* Common */,
 				7276605D29A5024000380B9C /* View */,
 				7276605B29A5021900380B9C /* Model */,
 				7276605C29A5022400380B9C /* ViewModel */,
+				727435CB29B6110D009C8DC9 /* PersistenceController.swift */,
+				727435CD29B61183009C8DC9 /* PasswordAssociationApp.xcdatamodeld */,
 				72C916DE29A3A95A0019FD04 /* Assets.xcassets */,
 				72C916E029A3A95A0019FD04 /* Preview Content */,
 			);
@@ -122,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				72F415D629AB5BAE003BA337 /* LabelDemo.swift */,
+				72D1AAB629B45C610070D458 /* AppStorageDemo.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -201,12 +210,15 @@
 				72F415D729AB5BAE003BA337 /* LabelDemo.swift in Sources */,
 				72C916DD29A3A9590019FD04 /* ContentView.swift in Sources */,
 				72F415CE29AB3170003BA337 /* EditView.swift in Sources */,
+				727435CF29B61183009C8DC9 /* PasswordAssociationApp.xcdatamodeld in Sources */,
 				7276605829A4F60600380B9C /* PasswordAssociation.swift in Sources */,
 				72C916EB29A3AF890019FD04 /* DetailView.swift in Sources */,
 				7276605A29A4FD3300380B9C /* HomeView.swift in Sources */,
 				72C916DB29A3A9590019FD04 /* PasswordAssociationApp.swift in Sources */,
 				72F415D229AB5132003BA337 /* PasswordAssociationView.swift in Sources */,
 				72F415D029AB36AD003BA337 /* DraftPasswordItem.swift in Sources */,
+				727435CC29B6110D009C8DC9 /* PersistenceController.swift in Sources */,
+				72D1AAB729B45C610070D458 /* AppStorageDemo.swift in Sources */,
 				72C916E929A3A9D00019FD04 /* PasswordItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +418,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		727435CD29B61183009C8DC9 /* PasswordAssociationApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				727435CE29B61183009C8DC9 /* PasswordAssociationApp.xcdatamodel */,
+			);
+			currentVersion = 727435CE29B61183009C8DC9 /* PasswordAssociationApp.xcdatamodel */;
+			path = PasswordAssociationApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 72C916CF29A3A9590019FD04 /* Project object */;
 }
